@@ -37,5 +37,7 @@
     justify-content: space-between;
 }
 .picture1 {
+    margin-left: 80px;
     width: 100px;
+}
 }
