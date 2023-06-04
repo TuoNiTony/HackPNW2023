@@ -36,8 +36,9 @@ body{
     justify-content: space-around;
     align-items: top;
 }
-.columnbox h3{
+.columnbox p{
     text-align: left;
+    font-size: 24px;
 }
 .textt{
     margin-top: 100px;
@@ -45,7 +46,7 @@ body{
     color: #fff;
 }
 .textt p{
-    font-size: 35px;
+    font-size: 36px;
 }
 .picture1 {
     margin-left: 200px;

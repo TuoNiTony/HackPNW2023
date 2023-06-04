@@ -68,7 +68,7 @@
 
 .popup{
     width: 400px;
-    background: #fff;
+    background: hsl(160, 31%, 62%);
     border: 3px solid #009688;
     border-radius: 25px;
     position: absolute;
@@ -104,17 +104,17 @@
 } 
 
 .popup button{
-    width: 100%;
-    margin-top: 50px;
-    padding: 10px 0;
-    background: #009688;
-    color:#fff;
-    border: 0;
-    outline: none;
-    font-size: 18px;
-    border-radius: 4px;
-    cursor: pointer;
-    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background-color: #009688;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
 
 } 
 .popup ul li{
@@ -128,6 +128,58 @@
     text-align: center;
     margin: 20px 10px;
     overflow: hidden;
+}
+
+.aboutUs {
+    width: 400px;
+    background: hsl(160, 31%, 62%);
+    border: 3px solid #009688;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333; 
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+    z-index: 2;
+}
+
+.aboutUs img{
+    width: 300px;
+    margin-top: 20px;
+    border: 3px solid #009688;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+} 
+
+.aboutUs h2{
+    font-size: 26px;
+    font-weight: 500;
+    font-weight: bold;
+    margin: 20px 10px 10px;
+} 
+
+.aboutUs button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background-color: #009688;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+} 
+
+.open-aboutUs{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
 }
 
 button{
