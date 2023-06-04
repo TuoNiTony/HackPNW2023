@@ -18,10 +18,28 @@
                 <h1>Greenhouse Gases</h1>
                 <p>loram ipsom</p>
                 <div>
-                    <button type="button"><span></span>Make an Impact</button>
+                    <button type="button" onclick="openPopup()"><span></span>Make an Impact</button>
+                        <div class="popup" id="popup">
+                            <img src="images/logo.png">
+                            <h2>loram ipsom</h2>
+                            <p>loram ipsom</p>
+                            <button type="button" onclick="closePopup()">OK</button>
+                        </div>
+
                     <button type="button"><span></span>About Us</button>
                 </div>
             </div>
         </div>
+
+        <script>
+            let popup = document.getElementById("popup");
+            function openPopup(){
+                popup.classList.add("open-popup");
+            }
+            function closePopup(){
+                popup.classList.remove("open-popup");
+            }
+        </script>
+
     </body>
 </html>
