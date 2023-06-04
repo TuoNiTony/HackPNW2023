@@ -49,13 +49,12 @@ body {
 }
 
 .columnbox p{
-    font-size: 24px;
-    text-align: center;
+    font-size: 26px;
+    text-align: right;
     max-width: 30%;
 }
 
 .columnbox img{
-    max-width: 38%;
     max-width: 40%;
 }
 div.item {
