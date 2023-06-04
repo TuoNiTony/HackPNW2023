@@ -54,6 +54,7 @@
     transform: translateY(-50%);
     text-align: center;
     color: #fff;
+    border-radius: 5px;
 }
 .content h1{
     font-size: 70px;
@@ -68,7 +69,8 @@
 .popup{
     width: 400px;
     background: #fff;
-    border-radius: 6px;
+    border: 3px solid #009688;
+    border-radius: 25px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -78,6 +80,7 @@
     color: #333; 
     visibility: hidden;
     transition: transform 0.4s, top 0.4s;
+    z-index: 2;
 } 
 .open-popup{
     visibility: visible;
@@ -88,21 +91,23 @@
 .popup img{
     width: 100px;
     margin-top: -50px;
-    border-radius: 50%;
+    border: 3px solid #009688;
+    border-radius: 25px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 } 
 
 .popup h2{
-    font-size: 38px;
+    font-size: 26px;
     font-weight: 500;
-    margin: 30px 0 10px;
+    font-weight: bold;
+    margin: 20px 10px 10px;
 } 
 
 .popup button{
     width: 100%;
     margin-top: 50px;
     padding: 10px 0;
-    background: #6fd649;
+    background: #009688;
     color:#fff;
     border: 0;
     outline: none;
@@ -112,6 +117,18 @@
     box-shadow: 0 5px 5px rgba(0,0,0,0.2);
 
 } 
+.popup ul li{
+    list-style: none;
+    margin: 0 auto;
+    line-height: 25px;
+}
+
+.popup ul li a {
+    background: transparent;
+    text-align: center;
+    margin: 20px 10px;
+    overflow: hidden;
+}
 
 button{
     width: 200px;

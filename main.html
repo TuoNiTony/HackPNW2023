@@ -1,45 +1,55 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Main Page</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class = "banner">
-            <div class="navbar">
-                <a href="main.html"><img src="images/logo.png" class="logo"></a>
-                <ul>
-                    <li><a href="Definition.html" target="_self">What Are Greenhouse Gases?</a></li>
-                    <li><a href="Purpose.html">Functionalities of Greenhouse Gases</a></li>
-                    <li><a href="CauseAndEffect.html">Causes and Effects</a></li>
-                </ul>
-            </div>
-            <div class="content">
-                <h1>Greenhouse Gases</h1>
-                <p>loram ipsom</p>
-                <div>
-                    <button type="button" onclick="openPopup()"><span></span>Make an Impact</button>
-                        <div class="popup" id="popup">
-                            <img src="images/logo.png">
-                            <h2>loram ipsom</h2>
-                            <p>loram ipsom</p>
-                            <button type="button" onclick="closePopup()">OK</button>
-                        </div>
 
-                    <button type="button"><span></span>About Us</button>
+<head>
+    <title>Main Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <a href="main.html"><img src="images/logo.png" class="logo"></a>
+            <ul>
+                <li><a href="Definition.html" target="_self">What Are Greenhouse Gases?</a></li>
+                <li><a href="Purpose.html" target="_self">Functionalities of Greenhouse Gases</a></li>
+                <li><a href="CauseAndEffect.html" target="_self">Causes and Effects</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Greenhouse Gases</h1>
+            <p>loram ipsom</p>
+            <div>
+                <button type="button" onclick="openPopup()"><span></span>Make an Impact</button>
+                <div class="popup" id="popup">
+                    <img src="images/logo.png">
+                    <h2>How to make an impact</h2>
+                    <ul>
+                        <li><a href="https://science.howstuffworks.com/environmental/green-science/10-alternative-transportation-methods.htm"
+                                target="_self">Use alternative transportation</a></li>
+                        <li><a href="https://portal.ct.gov/DEEP/Water/Water-Quantity/Tips-for-Conserving-Water"
+                                target="_self">Limit water usage</a></li>
+                        <li><a href="https://www.igs.com/energy-resource-center/energy-101/how-do-i-conserve-energy-at-home"
+                                target="_self">Save energy</a></li>
+                    </ul>
+                    <button type="button" onclick="closePopup()">OK</button>
                 </div>
+
+                <button type="button"><span></span>About Us</button>
             </div>
         </div>
+    </div>
 
-        <script>
-            let popup = document.getElementById("popup");
-            function openPopup(){
-                popup.classList.add("open-popup");
-            }
-            function closePopup(){
-                popup.classList.remove("open-popup");
-            }
-        </script>
+    <script>
+        let popup = document.getElementById("popup");
+        function openPopup() {
+            popup.classList.add("open-popup");
+        }
+        function closePopup() {
+            popup.classList.remove("open-popup");
+        }
+    </script>
 
-    </body>
+</body>
+
 </html>
