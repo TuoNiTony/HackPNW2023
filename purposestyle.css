@@ -53,3 +53,10 @@ body {
     text-align: left;
     max-width: 30%;
 }
+.main-div { 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
