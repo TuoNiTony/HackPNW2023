@@ -32,10 +32,15 @@
                         <li><a href="https://www.igs.com/energy-resource-center/energy-101/how-do-i-conserve-energy-at-home"
                                 target="_self">Save energy</a></li>
                     </ul>
-                    <button type="button" onclick="closePopup()">OK</button>
+                    <button type="button" onclick="closePopup()">Back</button>
                 </div>
-
-                <button type="button"><span></span>About Us</button>
+                <button type="button" onclick="openaboutUs()"><span></span>About Us</button>
+                <div class="aboutUs" id="aboutUs">
+                    <img src="images/aboutUs.png">
+                    <h2>About us</h2>
+                    <p>We are a group of high schoolers from Newport who likes to code, this is our first time participating a hackathon event!!</p>
+                    <button type="button" onclick="closeaboutUs()">Back</button>
+                </div>
             </div>
         </div>
     </div>
@@ -47,6 +52,15 @@
         }
         function closePopup() {
             popup.classList.remove("open-popup");
+        }
+    </script>
+    <script>
+        let aboutUs = document.getElementById("aboutUs");
+        function openaboutUs() {
+            aboutUs.classList.add("open-aboutUs");
+        }
+        function closeaboutUs() {
+            aboutUs.classList.remove("open-aboutUs");
         }
     </script>
 
