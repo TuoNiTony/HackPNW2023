@@ -54,16 +54,4 @@ body {
     max-width: 30%;
 }
 
-.columnbox img{
-    max-width: 40%;
-}
-div.item {
-    vertical-align: top;
-    display: inline-block;
-    text-align: center;
-    width: 120px;
-}
 
-.caption {
-    display: block;
-}
