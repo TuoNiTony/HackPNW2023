@@ -23,7 +23,7 @@ body {
 .navbar h1{
     width: 100%;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     color: #fff;
     margin-left: 5%;
     margin-right: 5%;
@@ -49,7 +49,7 @@ body {
 }
 
 .columnbox p{
-    font-size: 26px;
+    font-size: 22px;
     text-align: left;
     max-width: 30%;
 }
