@@ -30,15 +30,21 @@ body{
     color: #fff;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 5%;
-    width: 90%;
+    margin-top: 10%;
+    width: 80%;
     column-width: auto;
     justify-content: space-around;
     align-items: center;
 }
-
+.columnbox p{
+    text-align: left;
+}
+.textt{
+    margin-top: 200px;
+    margin-left: 200px;
+    color: #fff;
+}
 .picture1 {
     margin-left: 200px;
     width: 100px;
-}
 }
