@@ -28,13 +28,13 @@ body{
     flex-direction: row;
     text-align: center;
     color: #fff;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-right: 5%;
-    margin-top: 10%;
+    margin-top: 0;
     width: 80%;
     column-width: auto;
     justify-content: space-around;
-    align-items: center;
+    align-items: top;
 }
 .columnbox p{
     text-align: left;
