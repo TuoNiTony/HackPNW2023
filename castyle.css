@@ -29,7 +29,7 @@ body{
     width: 120px;
     cursor: pointer;
 }
-.columnbox {
+.leftcol {
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -42,19 +42,45 @@ body{
     justify-content: space-around;
     align-items: top;
 }
-.columnbox p{
+.leftcol p{
     text-align: left;
     font-size: 24px;
 }
+.rightcol {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: #fff;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 30px;
+    width: 80%;
+    column-width: auto;
+    justify-content: space-around;
+    align-items: top;
+}
+.rightcol p{
+    text-align: left;
+    font-size: 24px;
+    margin-left: 50px;
+}
 .textt{
-    margin-top: 70px;
+    margin-top: 50px;
     margin-left: 200px;
     color: #fff;
 }
 .textt p{
-    font-size: 36px;
+    font-size: 30px;
+}
+.textt2{
+    margin-top: 50px;
+    margin-left: 700px;
+    color: #fff;
+}
+.textt2 p{
+    font-size: 30px;
 }
 .picture1 {
-    margin-left: 200px;
-    width: 100px;
+    margin-left: 150px;
+    width: 75px;
 }
