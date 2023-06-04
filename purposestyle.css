@@ -56,4 +56,19 @@ body {
 
 .columnbox img{
     max-width: 38%;
+    max-width: 40%;
+}
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+img {
+    width: 100px;
+    height: 100px;
+    background-color: #000000;
+}
+.caption {
+    display: block;
 }
