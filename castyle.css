@@ -22,6 +22,7 @@
 .logo{
     width: 120px;
     cursor: pointer;
+}
 .leftcol{
     display: flex;
     flex-direction: row;
@@ -44,5 +45,4 @@
 .picture1 {
     margin-left: 80px;
     width: 100px;
-}
 }
